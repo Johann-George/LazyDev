@@ -49,24 +49,57 @@ The goal of LazyDev is to **bridge the gap between learning and employment** for
 - Time management reminders to reduce distractions (like YouTube).  
 
 ### **5. Dashboard & Analytics**
-- Personalized dashboard showing daily goals, job stats, and performance analytics.  
+- Personalized dashboard showing daily goals, job stats, and performance analytics. 
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Getting Started
 
-### Clone the Repository
+### **1. Clone the repository**
+```bash
 git clone https://github.com/<your-username>/LazyDev.git
 cd LazyDev
+````
 
-### Install Dependencies
+### **2. Install dependencies**
+
+```bash
 npm install
+```
 
-### Run the App
+### **3. Start the development server**
+
+```bash
 npm run dev
+```
 
+## 🧠 Future Enhancements
 
-Your app will be live at: http://localhost:3000
+* Integration with LeetCode/Codeforces APIs for performance tracking.
+* AI resume analyzer and auto-formatter.
+* Gamified streak system and leaderboard.
+* Chrome extension integration for distraction blocking (optional).
 
+---
 
+## 🤝 Contributing
+
+Contributions are welcome!
+If you’d like to help improve LazyDev, feel free to:
+
+1. Fork the repo
+2. Create a feature branch
+3. Submit a pull request
+
+---
+
+## 🧑‍💻 Author
+
+**Johann**
+
+---
+
+> *"Consistency beats talent when talent doesn't stay consistent." — LazyDev Motto*
+
+---
 
