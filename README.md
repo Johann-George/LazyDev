@@ -52,3 +52,21 @@ The goal of LazyDev is to **bridge the gap between learning and employment** for
 - Personalized dashboard showing daily goals, job stats, and performance analytics.  
 
 ---
+
+## ⚙️ Installation & Setup
+
+### Clone the Repository
+git clone https://github.com/<your-username>/LazyDev.git
+cd LazyDev
+
+### Install Dependencies
+npm install
+
+### Run the App
+npm run dev
+
+
+Your app will be live at: http://localhost:3000
+
+
+
