@@ -10,13 +10,16 @@ import Contact from "./pages/Contact.jsx"
 import { RouterProvider } from 'react-router-dom'
 import ErrorPage from "./pages/ErrorPage.jsx"
 import Login from './pages/Login.jsx'
+import Register from './pages/Register.jsx'
 
 const routeDefinitions = createRoutesFromElements(
   <Route path='/' element={<App/>} errorElement={<ErrorPage/>}>
     <Route index element={<Home/>}/>
+    <Route path='/home' element={<Home/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/register' element={<Register/>}/>
   </Route>
 )
 

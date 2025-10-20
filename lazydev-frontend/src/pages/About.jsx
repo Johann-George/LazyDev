@@ -6,7 +6,7 @@ export default function About() {
   const pStyle = "text-gray-600 dark:text-lighter";
 
   return (
-    <div className="max-w-[1152px] min-h-[852px] mx-auto px-6 py-8 font-primary dark:bg-darkbg">
+    <div className="max-w-[1400px] min-h-[852px] mx-auto px-6 py-8 font-primary dark:bg-darkbg">
       <PageTitle title="About Us" />
       {/* About Us Content */}
       <p className="leading-6 mb-8 text-gray-600 dark:text-lighter">
