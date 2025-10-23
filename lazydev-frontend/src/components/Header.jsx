@@ -89,12 +89,22 @@ export default function Header() {
           <ul className="flex space-x-6">
             <li>
               <NavLink
-                to="/home"
+                to="/practice"
                 className={({ isActive }) =>
                   isActive ? `underline ${navLinkClass}` : navLinkClass
                 }
               >
-                Home
+                Practice 
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/roadmap"
+                className={({ isActive }) =>
+                  isActive ? `underline ${navLinkClass}` : navLinkClass
+                }
+              >
+                Roadmap
               </NavLink>
             </li>
             <li>
