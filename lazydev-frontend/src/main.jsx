@@ -11,6 +11,8 @@ import { RouterProvider } from 'react-router-dom'
 import ErrorPage from "./pages/ErrorPage.jsx"
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
+import Roadmap from './pages/Roadmap.jsx'
+import Practice from './pages/Practice.jsx'
 
 const routeDefinitions = createRoutesFromElements(
   <Route path='/' element={<App/>} errorElement={<ErrorPage/>}>
@@ -20,6 +22,8 @@ const routeDefinitions = createRoutesFromElements(
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/register' element={<Register/>}/>
+    <Route path='/practice' element={<Practice/>}/>
+    <Route path='/roadmap' element={<Roadmap/>}/>
   </Route>
 )
 
