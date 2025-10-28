@@ -157,9 +157,9 @@ export default function Practice() {
   );
 
   return (
-    <>
+    <div className="relative min-h-screen bg-gray-900 text-white">
       <Sidebar />
-      <div className="ml-64 min-h-screen bg-gray-900 text-white">
+      <div className="ml-64">
         <div className="max-w-[1400px] mx-auto px-6 py-8">
           {/* Header Stats */}
           <div className="mb-8">
@@ -250,6 +250,6 @@ export default function Practice() {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 }
